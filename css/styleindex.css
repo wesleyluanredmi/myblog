@@ -6,6 +6,7 @@ html, body{
     margin: 0;
 }
 
+/*style do primeiro header da página*/
 .header-1{
     display: flex;
     flex-wrap: wrap;
@@ -21,14 +22,33 @@ html, body{
 
 .header-1 .logo h1{
     font-size: 20pt;
+    
 }
 
-#lista{
+.lista{
     list-style: none;
     display: flex;
     font-size: 15pt;
 }
 
-#lista li{
+.lista li{
     margin-right: 10px;
+}
+/*style do segundo header da página*/
+.header-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 255, 0.87);
+    width: 80vw;
+    margin: 0 auto;
+}
+.header-2 nav ul{
+    display: flex;
+    margin: 5px 0;
+    color: white;
+}
+
+.header-2 nav ul li {
+    padding: 3px 2px;
 }
