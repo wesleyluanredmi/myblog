@@ -67,6 +67,7 @@ a{
     flex-wrap: wrap;
     background-color: rgba(0, 0, 255, 0.87);
     width: 80vw;
+    height: 40px;
     margin: 0 auto;
 }
 .header-2 nav ul{
