@@ -37,12 +37,22 @@ a{
 .lista li{
     margin-right: 10px;
 }
+#github :hover{
+    border-top:solid 2px black;
+}
 #github a{
     color: #24292e;
 }
 
+#instagram :hover{
+    border-top:solid 2px #f8004a;
+
+}
 #instagram a{
     color: #f8004a;
+}
+#linkdin :hover{
+    border-top:solid 2px #0b66c3;
 }
 #linkdin a{
     color: #0b66c3;
@@ -64,7 +74,7 @@ a{
 .lista a{
     color: wheat;
 }
-.lista li:hover{
+.lista-navegacao .lista li:hover{
     border-top:solid 2px black;   
 }
 
