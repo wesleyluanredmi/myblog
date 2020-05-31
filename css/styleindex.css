@@ -53,6 +53,7 @@ html, body{
     padding: 3px 2px;
 }
 
+/*style do que esta abaixo do header*/
 .main{ 
     width: 80vw;
     margin: 0 auto;  
@@ -61,3 +62,14 @@ html, body{
 .texto-sobre-min p {
     text-align: justify;
 }
+
+/*style do rodape*/
+footer{
+    background-color: rgba(0, 0, 255, 0.87);
+    width: 80vw;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
