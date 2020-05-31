@@ -52,3 +52,12 @@ html, body{
 .header-2 nav ul li {
     padding: 3px 2px;
 }
+
+.main{ 
+    width: 80vw;
+    margin: 0 auto;  
+}
+
+.texto-sobre-min p {
+    text-align: justify;
+}
