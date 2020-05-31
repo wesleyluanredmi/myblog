@@ -24,7 +24,10 @@ a{
 }
 
 .header-1 .logo h1{
-    font-size: 20pt;
+    font-size: 30pt;
+    margin: 0px;
+    color: blue;
+    text-shadow: 3px 2px black;
     
 }
 
