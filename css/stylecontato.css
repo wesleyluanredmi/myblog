@@ -1,0 +1,88 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*style do primeiro header da página*/
+.header-1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: silver;
+    width: 80vw;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    color: rgba(117, 117, 0, 0.836);
+    -webkit-text-stroke-width: 0.1px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(255, 255, 255)/* cor da borda */
+}
+
+.header-1 .logo h1{
+    font-size: 30pt;
+    margin: 0px;
+    color: blue;
+    text-shadow: 3px 2px black;
+    
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    font-size: 15pt;
+}
+
+.lista li{
+    margin-right: 10px;
+}
+#github :hover{
+    border-top:solid 2px black;
+}
+#github a{
+    color: #24292e;
+}
+
+#instagram :hover{
+    border-top:solid 2px #f8004a;
+
+}
+#instagram a{
+    color: #f8004a;
+}
+#linkdin :hover{
+    border-top:solid 2px #0b66c3;
+}
+#linkdin a{
+    color: #0b66c3;
+}
+/*style do segundo header da página*/
+.header-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 255, 0.87);
+    width: 80vw;
+    height: 40px;
+    margin: 0 auto;
+}
+.header-2 nav ul{
+    display: flex;
+    margin: 5px 0;
+    padding: 0px;
+}
+.lista a{
+    color: wheat;
+}
+.lista-navegacao .lista li:hover{
+    border-top:solid 2px black;   
+}
+
+.header-2 nav ul li {
+    padding: 3px 2px;
+}
+/*style do que esta abaixo do header*/
