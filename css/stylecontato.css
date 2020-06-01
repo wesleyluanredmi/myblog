@@ -86,3 +86,41 @@ a{
     padding: 3px 2px;
 }
 /*style do que esta abaixo do header*/
+
+.conteudo{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: rgba(135, 135, 138, 0.87);
+}
+
+.header-section{
+    background-color: rgba(135, 135, 138, 0.87);
+    height: 10vh;
+    text-align: center;
+    margin: 0;
+}
+.header-section .titulo h1{
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.header-section .sub-titulo p{
+    margin: 0;
+}
+.conteudo-meio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+}
+
+
+
+footer{
+    background-color: rgba(0, 0, 255, 0.87);
+    color: wheat;
+    width: 80vw;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
