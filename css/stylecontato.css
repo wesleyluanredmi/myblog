@@ -87,36 +87,83 @@ a{
 }
 /*style do que esta abaixo do header*/
 
+/*Style do header do conteudo*/
 .conteudo{
     width: 80vw;
     margin: 0 auto;
-    background-color: rgba(135, 135, 138, 0.87);
 }
 
 .header-section{
-    background-color: rgba(135, 135, 138, 0.87);
-    height: 10vh;
     text-align: center;
     margin: 0;
 }
 .header-section .titulo h1{
     margin: 0 auto;
+    font-size: 20pt;
     padding-top: 10px;
 }
 .header-section .sub-titulo p{
     margin: 0;
+    font-size: 15pt;
 }
-.conteudo-meio{
+
+
+.header-section .sub-titulo p small{
+    font-size: 15pt;
+}
+/*style do conteudo as opções de contato*/
+
+.opcao-contato .lista-contato{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: royalblue;
+    justify-content: space-around; 
+    padding: 0;
+}
+
+.lista-contato li{
+    width: 250px;
+    text-align: center;
+    font-size: 13pt;
+    border-radius: 20px;
+    padding: 3px;
+
+}
+
+.lista-contato #email{
+    border: 2px solid #c03b2b;
+}
+.lista-contato #fone{
+    border: 2px solid #1927ee;
+}
+.lista-contato #whatsapp{
+    border: 2px solid #29e24b;
+}
+
+.lista-contato li figure{
+    display: flex;
+    margin: 0;
+}
+.lista-contato li img{
+    max-width: 100%;
+    margin: 0 auto;    
+}
+.lista-contato li a{
+    color: black;
+
+}
+.lista-contato li #linkwhatsapp{
+    color: #29e24b;
+}
+.lista-contato li #linkfone{
+    color: #1927ee;
+}
+.lista-contato li #linkemail{
+    color: #c03b2b;
 }
 
 
-
-footer{
+.footer{
     background-color: rgba(0, 0, 255, 0.87);
     color: wheat;
     width: 80vw;
