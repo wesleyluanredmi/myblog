@@ -34,6 +34,7 @@ a{
 .lista{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     font-size: 15pt;
 }
 
@@ -67,11 +68,12 @@ a{
     flex-wrap: wrap;
     background-color: rgba(0, 0, 255, 0.87);
     width: 80vw;
-    height: 40px;
+    min-height: 40px;
     margin: 0 auto;
 }
-.header-2 nav ul{
+.header-2 nav .lista{
     display: flex;
+    flex-wrap: wrap;
     margin: 5px 0;
     padding: 0px;
 }
@@ -84,6 +86,7 @@ a{
 
 .header-2 nav ul li {
     padding: 3px 2px;
+    
 }
 /*style do que esta abaixo do header*/
 
@@ -141,7 +144,6 @@ a{
 }
 
 .lista-contato li figure{
-    display: flex;
     margin: 0;
 }
 .lista-contato li img{

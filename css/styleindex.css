@@ -34,6 +34,7 @@ a{
 .lista{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     font-size: 15pt;
 }
 
@@ -67,11 +68,12 @@ a{
     flex-wrap: wrap;
     background-color: rgba(0, 0, 255, 0.87);
     width: 80vw;
-    height: 40px;
+    min-height: 40px;
     margin: 0 auto;
 }
 .header-2 nav ul{
     display: flex;
+    flex-wrap: wrap;
     margin: 5px 0;
     padding: 0px;
 }
