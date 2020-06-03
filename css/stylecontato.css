@@ -118,7 +118,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
-    padding: 0;
 }
 
 .lista-contato li{
@@ -127,6 +126,7 @@ a{
     font-size: 13pt;
     border-radius: 20px;
     padding: 3px;
+    margin: 5px auto;
 
 }
 
